@@ -1,0 +1,47 @@
+/* product.css */
+
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 300px;
+  }
+  
+  .product .row {
+    display: flex;
+    flex-direction: row; /* Display inputs in a row layout */
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .product .row label {
+    flex: 1; /* Let labels take up available space */
+  }
+  
+  .product input[type="text"],
+  .product textarea,
+  .product select {
+    flex: 2; /* Let inputs take up available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .product button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .product button:hover {
+    background-color: #0056b3;
+  }
+  
